@@ -2,19 +2,9 @@ import React from 'react';
 import { render } from 'react-dom';
 import Autosuggest from 'react-autosuggest';
 
-import './styles/index.scss';
+import languages from './constants/languages';
 
-// Imagine you have a list of languages that you'd like to autosuggest.
-const languages = [
-  {
-    name: 'C',
-    year: 1972,
-  },
-  {
-    name: 'Elm',
-    year: 2012,
-  },
-];
+import './styles/index.scss';
 
 // Teach Autosuggest how to calculate suggestions for any given input value.
 const getSuggestions = value => {
