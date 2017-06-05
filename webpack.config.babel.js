@@ -5,7 +5,7 @@ const PRODUCTION = process.env.NODE_ENV === 'production';
 
 export default {
   context: path.resolve(__dirname, './src'),
-  entry: './index.js',
+  entry: './redux.js',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, './dist'),
