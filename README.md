@@ -1,20 +1,14 @@
-React Redux Template
---------------------
+react-autosuggest sample
+========================
 
-A starter kit for developing React/Redux application.
+A sample of https://github.com/moroshko/react-autosuggest
 
-Including:
 
-- ES2015 (Babel)
-- React & Redux
-- ESLint
-- Webpack & Webpack Dev Server
-
-### Usage
-
-Build your app under `src` directory, and run
+### Installation & Usage
 
 ```
-$ npm install
-$ npm start
+$ yarn
+$ yarn start
 ```
+
+Please change `webpack.config.babel.js`'s `entry` to `index.js` (React only), `redux.js` (Redux), `multi.js` (multisection).
