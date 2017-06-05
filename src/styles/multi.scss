@@ -1,0 +1,21 @@
+dl.suggest {
+  background:#f5f5f5;
+}
+dl.suggest >*{
+  float:left;
+}
+dl.suggest > dt.label {
+  width: 40px;
+  margin-top: -1px;
+  padding: 4px;
+  border-top: 1px solid #e0e0e0;
+  color: #999;
+  font-size: 93%;
+  text-align: center;
+}
+dl.suggest > dd {
+  width: 179px;
+}
+dl.suggest > dd ul{
+  background: #fff;
+}
